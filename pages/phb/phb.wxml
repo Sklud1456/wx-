@@ -1,0 +1,22 @@
+<!--pages/phb/phb.wxml-->
+
+<view class='page-header'>
+  <text class='page-header-title'>{{title}}</text>
+  <view class="content">
+	<!--pics文件夹下的background.jpg文件-->
+	<image class='background' src="../../images/bg.jpg" mode="aspectFill"></image>
+	<!--页面其它部分-->
+</view>
+    <view id="modal" class="modal {{modalHidden}}">
+        <view class="header">排 行 榜</view>
+        <view class="footer">
+          <view>{{showData[0].id}}  {{showData[0].name}}  {{showData[0].score}}</view>
+          <view>{{showData[1].id}} {{showData[1].name}}  {{showData[1].score}}</view>
+          <view>{{showData[2].id}} {{showData[2].name}}  {{showData[2].score}}</view>
+          <view>{{showData[3].id}} {{showData[3].name}}  {{showData[3].score}}</view>
+          <view>{{showData[4].id}} {{showData[4].name}}  {{showData[4].score}}</view>
+          
+          
+        </view>
+    </view>
+</view>

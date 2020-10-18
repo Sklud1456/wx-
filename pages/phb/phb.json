@@ -1,0 +1,9 @@
+{
+  
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "分数排行",
+    "navigationBarTextStyle": "black"
+  }
+}

@@ -1,0 +1,29 @@
+{
+list: [
+          {
+              id: '1',
+              name: 'skd',
+              score: 15000,
+             
+          }, {
+              id: '2',
+              name: 'lcy',
+              score: 12000,
+              
+          }, {
+              id: '3',
+              name: 'qpw',
+              score: 11230,
+              
+          }, {
+              id: '4',
+              name: 'qxl',
+              score: 10000,
+             
+          }, {
+              id: '5',
+              name: 'wqe',
+              score: 1055,
+           
+          }
+      ]

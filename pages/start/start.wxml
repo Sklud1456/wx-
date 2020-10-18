@@ -1,0 +1,21 @@
+<!--pages/start/start.wxml-->
+<view class='page-header'>
+  <text class='page-header-title'>{{title}}</text>
+ 
+	<!--pics文件夹下的background.jpg文件-->
+  <image class='background' src="../../images/bg.jpg" mode="aspectFill"></image>
+  <view class='imagesize'>
+      <image src="../../images/logo.png" class='in-image'   >
+      </image>
+    </view>
+    <view class="footer">
+            <button bindtap="start">开 始</button>
+        </view>
+	<!--页面其它部分-->
+    <!-- <view id="modal" class="modal {{modalHidden}}">
+        <view class="header">排 行 榜</view>
+        <view class="footer">
+        heightFix
+        </view>
+    </view> -->
+</view>
